@@ -1,0 +1,25 @@
+<div class="cell example example4" id="example-4">
+  <form id="payment-form">
+    <fieldset>
+      <legend class="card-only" data-tid="elements_examples.form.pay_with_card">Pay with card</legend>
+      <legend class="payment-request-available" data-tid="elements_examples.form.enter_card_manually">Or enter card
+        details</legend>
+      <div class="container">
+        <div id="card-element" class="StripeElement StripeElement--empty">
+
+        </div>
+        <button type="submit" data-tid="elements_examples.form.donate_button">Submit</button>
+      </div>
+    </fieldset>
+    <div id="card-errors" class="error" role="alert">
+      <span class="message"></span>
+    </div>
+  </form>
+  <div class="success">
+    <div class="icon">
+    </div>
+    <h3 class="title" data-tid="elements_examples.success.title">Payment successful</h3>
+    <p class="message"><span data-tid="elements_examples.success.message">Thanks for trying Stripe Elements. No money
+        was charged, but we generated a token:</span><span class="token"></span></p>
+  </div>
+</div>
